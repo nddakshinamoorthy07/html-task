@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+</head>
+<body>
+
+  <h2>Contact Form</h2>
+  <form action="/submit-form" method="POST">
+    <label for="first-name">First Name:</label><br>
+    <input type="text" id="first-name" name="first-name" required><br><br>
+    <label for="last-name">Last Name:</label><br>
+    <input type="text" id="last-name" name="last-name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject"><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
